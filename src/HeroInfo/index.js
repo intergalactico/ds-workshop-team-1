@@ -11,7 +11,7 @@ import logo from "../../assets/dsconf-logo.png";
 const HeroInfo = (props) => {
   return (
     <s.HeroInfo>
-      <div>{props.children}</div>
+      <div style={{ marginBottom: '10rem'}}>{props.children}</div>
 
       <Paragraph centerContent={true}>
         <img src={logo} width="200" />
