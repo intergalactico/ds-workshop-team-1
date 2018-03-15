@@ -4,7 +4,7 @@ import * as s from './styles.js'
 
 const TextInput = (props) => {
   return (
-    <s.TextInput>TextInput</s.TextInput>
+    <s.TextInput type="text" placeholder={props.placeholder}/>
   )
 }
 

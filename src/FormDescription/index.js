@@ -4,7 +4,7 @@ import * as s from './styles.js'
 
 const FormDescription = (props) => {
   return (
-    <s.FormDescription>FormDescription</s.FormDescription>
+    <s.FormDescription>{props.children}</s.FormDescription>
   )
 }
 
