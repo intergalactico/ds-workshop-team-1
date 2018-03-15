@@ -22,6 +22,7 @@ import HeroInfo from 'HeroInfo';
 import Typography from 'Typography';
 import TextInput from 'TextInput';
 import SubHeading from 'SubHeading';
+import Speaker from 'Speaker';
 
 
 export {
@@ -44,5 +45,6 @@ export {
   ParagraphLink,
   HeroInfo,
   SubHeading,
-  TextInput
+  TextInput,
+  Speaker
 };
