@@ -6,7 +6,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import { Icon, Section, SectionHeader, SectionText, HeroInfo, Header, HeaderLogo, HeaderNavi, HeaderNaviLink, Paragraph, ParagraphLink, PageBlock, Form, FormDescription, TextInput, Heading } from '../lib/my-awesome-library'
+import cached1 from "../assets/dsconf-logo.png";
+import cached2 from "../assets/dsconf-wide.jpg";
+
+import { Button, Icon, Section, SectionHeader, SectionText, HeroInfo, Header, HeaderLogo, HeaderNavi, HeaderNaviLink, Paragraph, ParagraphLink, PageBlock, Form, FormDescription, TextInput, Heading, SubHeading } from '../lib/my-awesome-library'
 
 const st = Section.SectionTypography
 
@@ -42,6 +45,22 @@ const Home = () => {
       <PageBlock>
         <Heading>Keynotes, talks and workshops from the fore-front of Design Systems.</Heading>
         <Paragraph>DSCONF has 4 long, and 6 shorter speeches during the conference day. We are aiming to bring abundance of tangible information to attendees with real cases and learnings. The second day of DSCONF is dedicated to workshops. There is a total number of 5 workshops, and you can purchase them separately. The workshops are either half-day or full-day.</Paragraph>
+      </PageBlock>
+      <PageBlock>
+      <div style={{display: 'flex', flexDirection: 'row'}}>
+        <div style={{flex: 1}}>
+          <Form>
+            <SubHeading>Stay up to date</SubHeading>
+            <FormDescription>We will use the information you provided to share with you the information on when the tickets launch, and critical updates about the event.</FormDescription>
+            <TextInput placeholder="Name" />
+            <TextInput placeholder="Email" />
+            <Button style={{width: '100%'}}>Subscribe</Button>
+          </Form>
+          </div>
+          <div style={{flex: 1}}>
+            <p style={{color: 'white', border: '1px solid white'}}>Twitter embed</p>
+          </div>
+        </div>
       </PageBlock>
     </div>
     // <div>

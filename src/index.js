@@ -21,6 +21,8 @@ import Section, {SectionHeader, SectionText} from 'Section';
 import HeroInfo from 'HeroInfo';
 import Typography from 'Typography';
 import TextInput from 'TextInput';
+import SubHeading from 'SubHeading';
+
 
 export {
   Box,
@@ -41,5 +43,6 @@ export {
   Paragraph,
   ParagraphLink,
   HeroInfo,
+  SubHeading,
   TextInput
 };
