@@ -4,7 +4,7 @@ import * as s from './styles.js'
 
 const Heading = (props) => {
   return (
-    <div style={{background: 'black'}}>
+    <div>
       <s.Heading>{props.children}</s.Heading>
     </div>
   )

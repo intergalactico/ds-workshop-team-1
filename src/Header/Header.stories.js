@@ -8,7 +8,7 @@ import HeaderLogo from '../HeaderLogo'
 
 storiesOf('Header', module)
   .add('index', () => (
-    <div style={{background: 'black'}}>
+    <div>
       <Header>
         <HeaderLogo />
         <HeaderNavi>
