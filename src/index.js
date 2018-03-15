@@ -16,8 +16,11 @@ import HeaderNaviLink from 'HeaderNaviLink';
 import Heading from 'Heading';
 import PageBlock from 'PageBlock';
 import Paragraph from 'Paragraph';
+import ParagraphLink from 'ParagraphLink';
 import Section, {SectionHeader, SectionText} from 'Section';
+import HeroInfo from 'HeroInfo';
 import Typography from 'Typography';
+import TextInput from 'TextInput';
 
 export {
   Box,
@@ -35,5 +38,8 @@ export {
   HeaderNaviLink,
   Heading,
   PageBlock,
-  Paragraph
+  Paragraph,
+  ParagraphLink,
+  HeroInfo,
+  TextInput
 };

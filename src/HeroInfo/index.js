@@ -11,6 +11,8 @@ import logo from "../../assets/dsconf-logo.png";
 const HeroInfo = (props) => {
   return (
     <s.HeroInfo>
+      <div>{props.children}</div>
+
       <Paragraph centerContent={true}>
         <img src={logo} width="200" />
         <Heading>A DESIGN SYSTEMS CONFERENCE</Heading>
