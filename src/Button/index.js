@@ -11,7 +11,7 @@ import ButtonSimple from './ButtonSimple';
 import ButtonLink from './ButtonLink';
 import ButtonLabel from './ButtonLabel';
 
-const Button = ({ href, label, children, text, ...props }) => {
+const Button = ({ href, label, children, ...props }) => {
   /*
    * Different buttons to be rendered, depending on the
    * given properties
