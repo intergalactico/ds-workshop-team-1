@@ -33,15 +33,15 @@ export const Button = styled.div`
   cursor: pointer;
   outline: none;
   border: 1px solid;
-  border-color: transparent;
+  border-color: black;
   border-radius: 3px;
   box-sizing: border-box;
   line-height: 1.5;
   position: relative;
   user-select: none;
   text-decoration: none;
-  background-color: ${p => p.color};
-  color: ${p => p.textColor};
+  background-color: transparent;
+  color: black;
   font-size: ${p => p.size ? p.size : '1rem'};
   &:not(:last-child) {
     margin: 0 0.25em 0 0;
