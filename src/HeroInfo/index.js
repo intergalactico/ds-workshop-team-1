@@ -6,12 +6,14 @@ import Heading from '../Heading';
 import Paragraph from '../Paragraph';
 import Button from '../Button';
 
-import logo from "../../assets/dsconf-logo.png";
+//import logo from "../../assets/dsconf-logo.png";
+
+import logo from "../../assets/Logo2x.png";
 
 const HeroInfo = (props) => {
   return (
     <s.HeroInfo>
-      <div style={{ marginBottom: '10rem'}}>{props.children}</div>
+      <div style={{ marginBottom: '1px'}}>{props.children}</div>
 
       <Paragraph centerContent={true}>
         <img src={logo} width="200" />

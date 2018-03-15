@@ -8,6 +8,9 @@ import ReactDOM from 'react-dom'
 
 import cached1 from "../assets/dsconf-logo.png";
 import cached2 from "../assets/dsconf-wide.jpg";
+import cached3 from "../assets/DSC-HomeBGimgGrad.png";
+import cached4 from "../assets/Logo.png";
+import cached5 from "../assets/Logo2x.png";
 import andre from  "../assets/Andre_Chaker_lowres-ja-rajattu-1.jpg";
 import karri from  "../assets/karri_saarinen-1.jpg";
 import jina from "../assets/jina_anne-1.jpg";
@@ -55,35 +58,39 @@ const Home = () => {
         </div>
       </PageBlock>
       <PageBlock>
-        <Heading>Keynote speakers</Heading>
-        <Speaker
-          name="Person #1"
-          title="CEO of everything"
-          avatar={ hayley }
-          text="Hello there this is a long test text that we wanna…"
-        >
-        </Speaker>
-        <Speaker
-          name="Person #1"
-          title="CEO of everything"
-          avatar={ andre }
-          text="Hello there this is a long test text that we wanna…"
-        >
-        </Speaker>  
-        <Speaker
-          name="Person #1"
-          title="CEO of everything"
-          avatar={ karri }
-          text="Hello there this is a long test text that we wanna…"
-        >
-        </Speaker>
-        <Speaker
-          name="Person #1"
-          title="CEO of everything"
-          avatar={ jina }
-          text="Hello there this is a long test text that we wanna…"
-        >
-        </Speaker>
+        <div style={{maxWidth: '800px', margin: '0 auto'}}>
+          <Heading>Keynote speakers</Heading>
+          <div style={{display: 'flex', flexWrap: 'wrap'}}>
+            <Speaker
+              name="Person #1"
+              title="CEO of everything"
+              avatar={ hayley }
+              text="Hello there this is a long test text that we wanna…"
+            >
+            </Speaker>
+            <Speaker
+              name="Person #1"
+              title="CEO of everything"
+              avatar={ andre }
+              text="Hello there this is a long test text that we wanna…"
+            >
+            </Speaker>
+            <Speaker
+              name="Person #1"
+              title="CEO of everything"
+              avatar={ karri }
+              text="Hello there this is a long test text that we wanna…"
+            >
+            </Speaker>
+            <Speaker
+              name="Person #1"
+              title="CEO of everything"
+              avatar={ jina }
+              text="Hello there this is a long test text that we wanna…"
+            >
+            </Speaker>
+            </div>
+        </div>
       </PageBlock>
       <PageBlock>
         <div style={{display: 'flex', flexDirection: 'row'}}>
