@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components'
 
 export const Form = styled.div`
-  color: red;
+  color: white;
+  padding: 2rem 2rem;
 `
