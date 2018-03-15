@@ -11,9 +11,14 @@
     "deploy-storybook": "storybook-to-ghpages",
     "demo": "webpack-dev-server --config webpack.demo.config.js --content-base build --history-api-fallback",
     "flow": "flow",
-    "create-component": "./node_modules/add-component/index.js --no-index"
+    "create-component": "node ./node_modules/add-component/index.js --no-index"
   },
-  "eslintIgnore": ["demo", "lib", "webpack.config.js", "webpack.demo.config.js"],
+  "eslintIgnore": [
+    "demo",
+    "lib",
+    "webpack.config.js",
+    "webpack.demo.config.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/varya/styled-components-lib-setup.git"
